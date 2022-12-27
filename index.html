@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>RSA</title>
+    <script src="script.js" type="application/javascript"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="header">RSA crypto-system</h1>
+        <div class="encrypt-block">
+            <input class="input" id="encryptInput" />
+            <button class="button" id="encryptButton">Encrypt</button>
+        </div>
+
+        <div class="encrypt-block">
+            <h2>n =</h2>
+            <input class="input" id="n" />
+        </div>
+
+        <div class="encrypt-block">
+            <h2>e =</h2>
+            <input class="input" id="e" />
+        </div>
+
+        <h2 id="encryptAnswer"></h2>
+
+        <div class="encrypt-block">
+            <input class="input" id="decryptInput" />
+            <button class="button" id="decryptButton">Decrypt</button>
+        </div>
+
+        <h2 id="decryptAnswer"></h2>
+    </div>
+</body>
+</html>
